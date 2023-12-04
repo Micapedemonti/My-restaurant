@@ -193,7 +193,7 @@ aplicacion.geometry('1200x630+0+0')
 aplicacion.resizable(0, 0)
 
 # titulo de la ventana
-aplicacion.title("Mi Restaurante - Sistema de Facturacion")
+aplicacion.title("Mi Restaurante - Sistema de Facturación")
 
 # color de fondo de la ventana
 aplicacion.config(bg='burlywood')
@@ -203,7 +203,7 @@ panel_superior = Frame(aplicacion, bd=1, relief=FLAT)
 panel_superior.pack(side=TOP)
 
 # etiqueta titulo
-etiqueta_titulo = Label(panel_superior, text='Sistema de Facturacion', fg='azure4',
+etiqueta_titulo = Label(panel_superior, text=' Sistema de Facturación', fg='azure4',
                         font=('Dosis', 58), bg='burlywood', width=27)
 etiqueta_titulo.grid(row=0, column=0)
 
